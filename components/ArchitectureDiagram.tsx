@@ -8,10 +8,10 @@ interface Props {
 const ArchitectureDiagram: React.FC<Props> = ({ lang }) => {
   const t = {
     en: {
-      caption: "The Transformer - Model Architecture (Source: Attention Is All You Need)"
+      caption: "Figure 1: The Transformer - Model Architecture (Source: Attention Is All You Need)"
     },
     zh: {
-      caption: "Transformer 模型架构图 (来源: Attention Is All You Need)"
+      caption: "图 1：Transformer 模型架构图 (来源: Attention Is All You Need)"
     }
   }[lang];
 
@@ -24,7 +24,7 @@ const ArchitectureDiagram: React.FC<Props> = ({ lang }) => {
           className="max-h-[600px] max-w-full object-contain"
         />
       </div>
-      <p className="text-xs text-slate-500 mt-3 italic">{t.caption}</p>
+      <p className="text-xs text-slate-500 mt-3 italic font-serif">{t.caption}</p>
     </div>
   );
 };

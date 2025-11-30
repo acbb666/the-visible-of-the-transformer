@@ -2,6 +2,14 @@ import React from 'react';
 
 export type Language = 'en' | 'zh';
 
+export interface QuizQuestion {
+  id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number; // Index of the correct option
+  explanation: string;
+}
+
 export interface Section {
   id: string;
   title: string;
