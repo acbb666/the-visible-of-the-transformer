@@ -1,0 +1,5 @@
+{
+  "name": "Transformer Explained",
+  "description": "An interactive, educational deep dive into the Transformer architecture and the 'Attention Is All You Need' paper, featuring interactive visualizations and an AI Tutor.",
+  "requestFramePermissions": []
+}
